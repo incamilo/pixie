@@ -1,0 +1,223 @@
+/* Clear Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Dosis', Sans-Serif;
+}
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+.bg {
+	background-color: #FBFBFB;
+	height: 900vh;
+	width: 100vw;
+}
+
+/* Navbar Styles */
+
+header > div {
+	position: relative;
+	z-index: 1000;
+	background-color: #fff;
+}
+header > div > nav {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	max-width: 1200px;
+}
+
+header > div > nav > div {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -5px;
+	margin-right: -5px;
+	min-width: 100%;
+	align-items: center;
+}
+
+header > div > nav > div > * {
+	padding: 5px;
+	position: static;
+	width: auto;
+	flex-basis: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	text-decoration: none;
+	color: #000;
+}
+
+header > div > nav > div > .menu {
+	max-width: 100%;
+}
+
+header > div > nav > div > .logo {
+	display: flex;
+	align-items: center;
+	max-width: 300px;
+}
+
+header > div > nav > div > .s-cart {
+	max-width: 100%;
+	margin-left: auto;
+}
+
+.logo > a {
+	display: inline-flex;
+}
+
+.logo > a > img {
+	width: 140px;
+	height: auto;
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+/* Slider Styles */
+
+.slider {
+	margin-top: 30px;
+	background-color: #fff;
+}
+
+.slider > .container {
+	margin: auto 30px;
+	display: flex;
+	flex-direction: column;
+	font-size: 3.6rem;
+}
+
+.slider > .container > p {
+	margin: 0px;
+}
+
+.slider > .container > .text-1 {
+	font-weight: 600;
+	line-height: 1.2em;
+	font-size: 2.6em;
+}
+
+.slider > .container > .text-2 {
+	font-weight: 900;
+	line-height: 1.2em;
+	font-size: 2.4em;
+	margin-top: 10px;
+}
+
+.slider > .container > .text-2 > span {
+	color: rgb(237,27,52);
+}
+
+.slider > .container > .buttons {
+	margin-top: 10px;
+}
+
+.slider > .container > .buttons > a {
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	font-size: 28px;
+	font-weight: 500;
+	text-align: center;
+	padding: 0.67rem 0.67rem;
+	background-color: rgb(237,27,52);
+}
+
+/* Suplementos Style */
+
+.p-button > span, .p-cantidad {
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	font-size: 28px;
+	font-weight: 500;
+	text-align: center;
+	padding: 0.67rem 0.67rem;
+	background-color: rgb(237,27,52);
+}
+
+.suplementos {
+	margin: 5rem 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.suplementos > p {
+	margin-bottom: 40px;
+}
+
+.suplementos > h2 {
+	margin-top: 40px;
+	font-size: 1.7em;
+}
+
+.p-image {
+	width: calc(100% / 1.1);
+	height: calc(100% / 1.1);
+	margin: 0px calc(9.0909% / 2);
+}
+
+.p-block {
+	width: calc(100% / 1.1);
+	height: 40px;
+	background-color: #F2F2F2;
+	margin: 0px calc(9.0909% / 2);
+	box-shadow: rgba(0,0,0,0.05) 0px 0px 16px 0px;
+}
+
+.p-name {
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.p-price {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.p-cantidad {
+	text-align: center;
+	padding: 0.33rem 0.33rem;
+	background-color: rgb(0,0,0);
+	margin: 0px 45vw;
+}
+
+.p-name, .p-price, .p-cantidad, .p-button {
+	margin-bottom: 15px;
+}
+
+.p-button {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none;
+}
+
+.selector {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.selector > a {
+	text-decoration: none;
+	margin: 0px 10px;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 50px;
+	color: #000;
+}
