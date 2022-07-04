@@ -55,6 +55,7 @@ header > div > nav > div > * {
 
 header > div > nav > div > .menu {
 	max-width: 100%;
+        width: 40px;
 }
 
 header > div > nav > div > .logo {
@@ -66,6 +67,7 @@ header > div > nav > div > .logo {
 header > div > nav > div > .s-cart {
 	max-width: 100%;
 	margin-left: auto;
+        width: 40px;
 }
 
 .logo > a {
@@ -154,6 +156,10 @@ header > div > nav > div > .s-cart {
 
 .suplementos > p {
 	margin-bottom: 40px;
+}
+
+.suplementos > p > img {
+        width: 40px;
 }
 
 .suplementos > h2 {
